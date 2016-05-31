@@ -34,9 +34,14 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\bMac\b/g, "Windows");
+	v = v.replace(/\bmac\b/g, "Windows");
 	v = v.replace(/\bWindows\b/g, "Mac");
+	v = v.replace(/\bwindows\b/g, "Mac");
 	v = v.replace(/\bFriend\b/g, "Fatty");
+	v = v.replace(/\bfriend\b/g, "Fatty");
 	v = v.replace(/\biPhone\b/g, "samsung galaxy");
+	v = v.replace(/\biphone\b/g, "samsung galaxy");
+	v = v.replace(/\bSamsung\sgalaxy\b/g,"iPhone");
 	v = v.replace(/\bsamsung\sgalaxy\b/g,"iPhone");
 	v = v.replace(/\bHow\b/g, "Butt");
 	
