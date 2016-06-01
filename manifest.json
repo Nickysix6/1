@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Weird-Text",
+	"name": "1",
 	"version": "1.0",
-	"description": "Someing that will drive you crazy.",
+
 	
 	"content_scripts": 
 	[
