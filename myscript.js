@@ -33,17 +33,11 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bMac\b/g, "Windows");
-	v = v.replace(/\bmac\b/g, "Windows");
-	v = v.replace(/\bWindows\b/g, "Mac");
-	v = v.replace(/\bwindows\b/g, "Mac");
-	v = v.replace(/\bFriends\b/g, "Fatty");
-	v = v.replace(/\bfriends\b/g, "Fatty");
-	v = v.replace(/\biPhone\b/g, "samsung galaxy");
-	v = v.replace(/\biphone\b/g, "samsung galaxy");
-	v = v.replace(/\bSamsung Galaxy\b/g,"iPhone");
-	v = v.replace(/\bsamsung galaxy\b/g,"iPhone");
-	v = v.replace(/\bHow\b/g, "Butt");
-	
-	textNode.nodeValue = v;
+	v = v.replace(/\bthe\b/g, "any");
+	v = v.replace(/\bThe\b/g, "any");
+	v = v.replace(/\bbe\b/g, "not be");
+	v = v.replace(/\bBe\b/g, "not be");
+	v = v.replace(/\bto\b/g, "two");
+	v = v.replace(/\bTo\b/g, "two");
+
 }
